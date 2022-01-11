@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	background-attachment: fixed;
+	background-color: #ffc107;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.form__el {
+	margin: 70px auto 118px;
+	justify-content: space-between;
+	width: 1125px;
+}
+
+.form__el .select__one,
+.form__el .select__two {
+	width: 260px;
+}
+
+.form__el .search__pokemon {
+	width: 300px;
+}
+
+.form__el .search__btn {
+	width: 200px;
+}
+
+/* Pokemon */
+.pokemon__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.pokemon__item {
+	margin-bottom: 10px;
+}
+
+.pokemon__flex {
+	display: flex;
+	justify-content: space-between;
+}
